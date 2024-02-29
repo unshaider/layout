@@ -1,0 +1,90 @@
+*{
+    @import url('https://fonts.googleapis.com/css2  family=Barlow&display=swap');
+    font-family: 'Barlow', sans-serif;
+    color: black;
+}
+.banner{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-image: url(banner.jpg);
+  background-size: cover;
+}
+.overlay{
+  background-color: rgb(67, 203, 131, 0.51);
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 200px;
+}
+.banner h1,.banner p{
+  text-align: center;
+  font-weight: bold;
+}
+.banner button{
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 14px !important;
+    border-radius: 5px !important;
+}
+.main-card i{
+    font-size: 50px;
+    color: rgb(161, 208, 39);
+}
+.main-card{
+    justify-content: center;
+    padding: 20px 0;
+}
+.cards{
+    width: 300px !important;
+}
+.about-main{
+    display: flex;
+    align-items: center;
+    padding: 50px 200px;
+    background-color: rgba(0, 0, 0, 0.05);;
+}
+.email{
+  background-color: rgb(67, 203, 131);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+form button{
+  width: 150px !important;
+  height: 40px;
+  color: rgb(67, 203, 131) !important;
+}
+form input{
+  width: 450px !important;
+  background-color: rgb(67, 203, 131) !important;
+  color: white !important;
+  border: 2px solid white !important;
+}
+form input::placeholder{
+  color: white !important;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+footer{
+  padding: 20px 0;
+}
+.copyright{
+  padding: 5px 0;
+}
+.copyright p{
+  color: white;
+  align-items: center;
+  margin-top: 15px;
+}
+footer i{
+  font-size: 30px;
+  margin-right: 10px;
+}
